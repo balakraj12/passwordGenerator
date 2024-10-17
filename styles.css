@@ -1,0 +1,95 @@
+*{
+    padding: 0.1rem;
+    margin: 0.1rem;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif ;
+
+}
+
+:root {
+
+    --dk-violet: hsl()
+} 
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(31, 17, 206, 1) 0%, rgba(229, 43, 43, 1) 100%);
+    
+}
+
+ /*.pass{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+} */
+
+
+.container {
+    width: 90%;
+    max-width: 450px;
+}
+
+h1 {
+    color: antiquewhite ;
+    opacity: 0.75;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.display-container{
+    position: relative;
+    background-color: var(--dk-violet);
+    border-radius: 7rem;
+    border-bottom: 0.35 solid var(--lt-violet2);
+    margin: 1rem 0;
+    padding: 0.35rem;
+
+
+}
+
+.display {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 1.5rem 1rem;
+    color: var(--vb--yellow);
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-right: 3.25rem;
+
+
+}
+
+.strength-container{
+
+    border: 2px solid black;
+    background-color: rgb(236, 227, 214);
+    
+
+
+}
+
+.generateButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    margin-top: 0.5rem;
+
+
+}
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini project</title>
+    <link rel="shortcut icon" href="https://static.thenounproject.com/png/5024723-200.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+
+
+
+    <div class="container">
+
+
+     
+
+        
+        <!-- heading wali line -->
+        <h1 class="pass">
+            Password Generator
+
+        </h1>
+
+        <!-- password wali line -->
+
+        <div class="display-container">
+            <input type="text" placeholder="password" data-passwordDisplay >
+            <button data-copy >
+                <span data-copyMsg></span>
+                <img src="https://www.shutterstock.com/image-vector/document-copy-button-icon-web-600nw-1976622557.jpg" alt="copy" width="23" height="23">
+
+            </button>
+        </div>
+
+        <!-- mean line -->
+
+        <div class="input-container">
+
+            <div class="length-container">
+                <p> Password Length </p>
+                <p data-lengthNumber>0</p>
+
+            </div>
+
+        </div>
+
+        <!-- slider , [costom beriables & attribute] -->
+
+            <input type="range"  min="1" max="20" class="slider" step="1" data-length-slider />
+            
+
+            <!-- check boxes-->
+     
+            <div>
+
+                <label for="checkbox" >Include Upper Case Lengthn</label>
+                <input type="checkbox" id="uppercase">
+
+            </div>
+
+            <div>
+
+                <label for="checkbox">Include Lower Case Lengthn</label>
+                <input type="checkbox" id="lowercse">
+
+            </div>
+            
+            <div>
+
+                <label for="checkbox" >Include Number </label>
+                <input type="checkbox" id="numbers">
+
+            </div>
+            
+            <div>
+
+                <label for="symbol"> Include Symbol </label>
+                <input type="checkbox" id="symbols" >
+
+            </div>    
+
+
+
+        
+
+            <!-- strength section  -->
+
+            <div class="strength-container">
+                <p>
+                    Strength
+                </p>
+
+                <!-- [costom attribute ]-->
+
+                <div data-indicator>
+
+                </div>
+
+
+
+
+            </div>
+
+            <!-- generate password -->
+
+            <button class="generateButton">
+                Generate Password
+            </button>
+   
+        
+
+
+
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
